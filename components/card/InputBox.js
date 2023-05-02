@@ -1,4 +1,6 @@
 const InputBox = ({placeholder,value, setValue}) => {
+    console.log(placeholder); 
+    console.log("placeholder is ", placeholder); 
     return (
         <input
             type="text"
